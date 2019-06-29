@@ -11,7 +11,7 @@ main.hex:main.ihx
 	copy  main.ihx main.hex
 
 main.ihx: main.c $(addsuffix .rel, $(EXTRA_C_FILE))
-	sdcc $(SDCC_FLAGS) $<
+	sdcc $(SDCC_FLAGS) $?
 
 %.rel: src/%.c
 	sdcc $(SDCC_FLAGS) -c $<

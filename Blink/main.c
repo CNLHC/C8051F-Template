@@ -19,7 +19,7 @@ void main(void) {
 }
 
 void PORT_Init(void) {
-  XBR2 =40;
+  XBR2 =0x40;
   P0MDOUT = 0x00;
   P7MDOUT=0xFF;
 }
