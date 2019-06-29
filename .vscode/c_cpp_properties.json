@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\\\Program Files (x86)\\\\SDCC\\\\include"
+            ],
+            "forcedInclude": [
+                "C:\\\\Program Files (x86)\\\\SDCC\\\\include\\\\mcs51\\\\lint.h"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:\\\\Users\\\\cn\\\\Desktop\\\\Project\\\\C8051F\\\\mingw64\\\\bin\\\\gcc.exe"
+        }
+    ],
+    "version": 4
+}
