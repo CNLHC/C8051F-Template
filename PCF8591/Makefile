@@ -1,7 +1,7 @@
 .PHONY: clean download
 
 DEBUGGER_SN = "EC800270115"
-EXTRA_C_FILE = foo
+EXTRA_C_FILE = I2C
 SDCC_FLAGS= -mmcs51
 
 download: main.hex
